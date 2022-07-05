@@ -3,6 +3,7 @@ module helloworld
 go 1.18
 
 require (
+	github.com/ant0ine/go-json-rest v3.3.2+incompatible // indirect
 	github.com/labstack/echo/v4 v4.7.2 // indirect
 	github.com/labstack/gommon v0.3.1 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
