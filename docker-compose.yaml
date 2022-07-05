@@ -1,0 +1,11 @@
+version: "3"
+services: 
+  app: # service name
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    tty: true # containerを継続させたい
+    ports:
+      - 1323:1323
+    volumes:
+      - .:/go/src/app
